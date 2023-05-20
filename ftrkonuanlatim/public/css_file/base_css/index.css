@@ -1,0 +1,135 @@
+body{
+    background-color: #f3f3f3;
+}
+
+header, nav ,aside,footer{
+    -webkit-user-select: none; 
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    -o-user-select: none;
+    user-select: none; 
+}
+
+div.section_aside{
+    margin-top:10px;
+}
+
+footer{
+    margin-top:5px;
+    height: 100px;
+}
+
+section div.ana_hat ,aside div.ana_hat, footer div.ana_hat{
+  margin:4px;
+  padding:5px;
+  background-color: #ffff;
+  box-shadow: #fff 3px;
+  border-radius: 3px;
+  word-break: break-word;
+  overflow: hidden;
+}
+header{
+    padding: 3px;
+    background-color:  rgb(250,250, 250) ;
+}
+header:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+header div.description{
+    font-weight: 500;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 10px;
+    float: right;
+    font-size: smaller;
+    opacity: 0.5;
+}
+nav{
+   background-color:  rgb(250,250, 250) ;   
+}
+
+nav #ust_taraf{
+    padding:2px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 500;
+}
+nav #ust_taraf a{
+    color:black;
+}
+
+nav #ust_taraf:hover{
+    background-color: lightblue;
+}   
+nav #ust_taraf:hover >a{
+    color:darkblue;
+} 
+div#info{
+    margin: auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+    word-break: break-word;
+    overflow: hidden;
+    text-align: center;
+    
+}
+@media screen and (max-width:1100px){
+    header div.description {
+       display:none;
+    }
+}
+@media screen and (max-width:865px){
+    header div.description {
+       display:none;
+    }
+}
+
+@media screen and (min-width:864px){
+    header div.description {
+       display: block;
+    }
+}
+@media screen and (max-width:768px){
+    header h2{
+        float:right;
+        opacity:0.7;
+        font-size: large;
+        margin-top: 7px;
+        margin-right:9px ;
+    }
+}
+@media screen and (min-width:767px){
+    header h2{
+        float: left;
+        margin-left: 20px;
+        opacity:0.7;
+    }  
+}
+
+@media screen and (max-width:576px){
+    nav #ust_taraf{
+        font-weight: 600;
+        font-size: small;
+    }
+}
+@media screen and (max-width:450px){
+    section{
+        margin: 0px;
+        padding:0px;
+    }
+}
+@media screen and (max-width:300px){
+    nav #ust_taraf{
+        font-size: x-small;
+        font-weight: 800;
+    }
+    header h2{
+        font-size: medium;
+    }
+}

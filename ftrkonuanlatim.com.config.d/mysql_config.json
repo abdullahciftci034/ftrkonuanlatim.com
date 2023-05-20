@@ -1,0 +1,13 @@
+{
+    "root":{
+        "host":"localhost",
+        "user":"root",
+        "password":"",
+        "dbname":"ftrkonuanlatim"
+    },
+    "root1":{
+        "host":"localhost",
+        "user":"root",
+        "password":""
+    }
+}

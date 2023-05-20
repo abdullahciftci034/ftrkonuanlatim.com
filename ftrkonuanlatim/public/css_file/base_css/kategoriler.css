@@ -1,0 +1,106 @@
+/*kategoriler bölümü*/
+div#kategoriler{
+    padding:0px;
+    margin:0px;
+    font-size: 10px;
+}
+div#kategoriler ul#kategoriler{
+    list-style:none;
+    padding-left: 0px;
+}
+div#kategoriler ul#kategoriler li#kategoriler{
+     margin-left: 0px;
+     margin-top: 2px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 0px;
+}
+div#kategoriler ul#kategoriler li#kategoriler:hover{
+    background-color: rgb(230,230,230);
+    max-width: 500px;
+    border-radius: 5px;	
+}
+div#kategoriler ul#kategoriler li#kategoriler a#kategoriler{
+    font-size: 15px;
+    font-weight: 500;
+    color:black;
+}
+div#kategoriler ul#kategoriler li#kategoriler div{
+    font-size: 12px;
+    margin-left: 40px;
+    display:none;
+}
+div#kategoriler ul#kategoriler li#kategoriler div ul#konu_getir li a{
+    color: black;
+}
+div#kategoriler ul#kategoriler li#kategoriler div ul#konu_getir li{
+    padding:5px;
+    border-radius:8px;
+}
+div#kategoriler ul#kategoriler li#kategoriler div ul#konu_getir li:last-child{
+    margin-bottom:8px;
+}
+div#kategoriler ul#kategoriler li#kategoriler div ul#konu_getir li:hover{
+    background-color: rgb(215,215,215);
+}	
+@media screen and (min-width:768px){
+    div#kategoriler1{
+        display: block;
+        
+    }
+    div#kategoriler2{
+        display: none;
+    }
+}
+@media screen and (max-width:767px){
+    div#kategoriler1{
+        display: none;
+    }
+    div#kategoriler2{
+       margin-top: 0px;
+       margin-left: 8px;
+       display:block;
+       position: relative;
+       float: left;
+    }
+    div#ucNokta_baslangic{
+        position: absolute;
+        top:0px;
+        left:0px;   
+        z-index: 1;
+        margin: 5px;
+        background-color: #fff;
+        width: 20px;
+    }
+    div#ucNokta_baslangic *{
+        margin:0px;
+        padding: 0px;
+        border-radius: 2px;
+    }
+    div#ucNokta{
+        height: 20px;
+        width: 20px;
+    }
+    div#ucNokta:hover{
+        background-color: blanchedalmond;
+    }
+    div#ucNokta div#ucNokta_bosluk{
+        height: 4px;
+    }   
+    div#ucNokta div#ucNokta_cizgi{
+        margin-top:3px;
+        background-color: black;
+        border-radius: 1px;
+        margin-right: auto;
+        margin-left: auto;
+        width:18px;
+        height: 1.5px;
+    }
+    div#ucNokta_gorunecekOge{
+        display: none;
+        border-radius: 3px;
+        background-color:#fff;
+        width: 300px;
+    }
+    
+}

@@ -1,0 +1,297 @@
+{
+	"ftrkonuanlatim":{
+		"usersrank": {
+			"0": {
+				"description": "Normal Kullanıcı",
+				"rankValue": "1"
+			},
+			"1": {
+				"description": "Yetkili Kullanıcı",
+				"rankValue": "2"
+			},
+			"2": {
+				"description": "Admin Kullanıcı",
+				"rankValue": "3"
+			},
+			"3": {
+				"description": "deneme yaptık",
+				"rankValue": "4"
+			}
+		},
+		"users": {
+			"0": {  
+				"id": "1",
+				"userNameVal": "Abdullah Çiftçi",
+				"userName": "abdullahciftci034",
+				"userEmail": "abdullahciftci034@gmail.com",
+				"userRank": "3",
+				"userDateOfRegistration": "2020-08-19 18:27:11",
+				"password": "144b505bb1d66d5bf1b5429f250dc03d",
+				"userConfirmation": "1",
+				"userActive": "1",
+				"userloginBlocked": "0"
+			},
+			"1": {
+				"id": "2",
+				"userNameVal": "Abdullah Çiftçi",
+				"userName": "abdullah123",
+				"userEmail": "abdullahciftci@gmail.com",
+				"userRank": "1",
+				"userDateOfRegistration": "2020-08-20 16:02:27",
+				"password": "144b505bb1d66d5bf1b5429f250dc03d",
+				"userConfirmation": "1",
+				"userActive": "0",
+				"userloginBlocked": "0"
+			}
+		},
+		"lesson": {
+			"0": {
+				"lessonKey": "anatomi",
+				"lessonName": "Anatomi"
+			},
+			"1": {
+				"lessonKey": "dahili_bilimler",
+				"lessonName": "Dahili Bilimler"
+			},
+			"2": {
+				"lessonKey": "el_cerrahisi_ve_rehabilitasyonu",
+				"lessonName": "El Cerrahisi ve Rehabilitasyonu"
+			},
+			"3": {
+				"lessonKey": "el_splinleri",
+				"lessonName": "El Splintleri"
+			},
+			"4": {
+				"lessonKey": "elektro_terapi_ve_modaliteler",
+				"lessonName": "Elektro Terapi ve Modaliteler"
+			},
+			"5": {
+				"lessonKey": "fizyoloji",
+				"lessonName": "Fizyoloji"
+			},
+			"6": {
+				"lessonKey": "isi_isik",
+				"lessonName": "Isı Işık"
+			},
+			"7": {
+				"lessonKey": "kardiyopulmoner_rehabilitasyonu",
+				"lessonName": "Kardiyopulmoner Rehabilitasyon"
+			},
+			"8": {
+				"lessonKey": "kinezyoloji",
+				"lessonName": "Kinezyoloji"
+			},
+			"9": {
+				"lessonKey": "manupulatif_tedavi",
+				"lessonName": "Manupulatif Tedavi"
+			},
+			"10": {
+				"lessonKey": "norolojik_rehabilitasyon",
+				"lessonName": "Nörolojik Rehabilitasyon"
+			},
+			"11": {
+				"lessonKey": "ortez_ve_protez_rehabilitasyonu",
+				"lessonName": "Ortez ve Protez Rehabilitasyonu"
+			},
+			"12": {
+				"lessonKey": "tedavi_hareketleri",
+				"lessonName": "Tedavi Hareketleri"
+			}
+		},
+		"unit": {
+			"0": {
+				"id": "1",
+				"lessonKey": "anatomi",
+				"authorUserId": "1",
+				"unitKey": "anatomi/oneri",
+				"unitTitle": "Öneri",
+				"unitContent": "bos",
+				"unitFileLocation": "bos",
+				"unitConfirmation": "1",
+				"UnitDateOfRegistration": "2020-08-19 18:27:11"
+			},
+			"1": {
+				"id": "2",
+				"lessonKey": "dahili_bilimler",
+				"authorUserId": "1",
+				"unitKey": "dahili_bilimler/oneri",
+				"unitTitle": "Öneri",
+				"unitContent": "bos",
+				"unitFileLocation": "bos",
+				"unitConfirmation": "1",
+				"UnitDateOfRegistration": "2020-08-19 18:27:11"
+			},
+			"2": {
+				"id": "3",
+				"lessonKey": "el_cerrahisi_ve_rehabilitasyonu",
+				"authorUserId": "1",
+				"unitKey": "el_cerrahisi_ve_rehabilitasyonu/oneri",
+				"unitTitle": "Öneri",
+				"unitContent": "bos",
+				"unitFileLocation": "bos",
+				"unitConfirmation": "1",
+				"UnitDateOfRegistration": "2020-08-19 18:27:11"
+			},
+			"3": {
+				"id": "4",
+				"lessonKey": "el_splinleri",
+				"authorUserId": "1",
+				"unitKey": "el_splinleri/oneri",
+				"unitTitle": "Öneri",
+				"unitContent": "bos",
+				"unitFileLocation": "bos",
+				"unitConfirmation": "1",
+				"UnitDateOfRegistration": "2020-08-19 18:27:11"
+			},
+			"4": {
+				"id": "5",
+				"lessonKey": "fizyoloji",
+				"authorUserId": "1",
+				"unitKey": "fizyoloji/oneri",
+				"unitTitle": "Öneri",
+				"unitContent": "bos",
+				"unitFileLocation": "bos",
+				"unitConfirmation": "1",
+				"UnitDateOfRegistration": "2020-08-19 18:27:11"
+			},
+			"5": {
+				"id": "6",
+				"lessonKey": "isi_isik",
+				"authorUserId": "1",
+				"unitKey": "isi_isik/oneri",
+				"unitTitle": "Öneri",
+				"unitContent": "bos",
+				"unitFileLocation": "bos",
+				"unitConfirmation": "1",
+				"UnitDateOfRegistration": "2020-08-19 18:27:11"
+			},
+			"6": {
+				"id": "7",
+				"lessonKey": "kinezyoloji",
+				"authorUserId": "1",
+				"unitKey": "kinezyoloji/oneri",
+				"unitTitle": "Öneri",
+				"unitContent": "bos",
+				"unitFileLocation": "bos",
+				"unitConfirmation": "1",
+				"UnitDateOfRegistration": "2020-08-19 18:27:11"
+			},
+			"7": {
+				"id": "8",
+				"lessonKey": "manupulatif_tedavi",
+				"authorUserId": "1",
+				"unitKey": "manupulatif_tedavi/oneri",
+				"unitTitle": "Öneri",
+				"unitContent": "bos",
+				"unitFileLocation": "bos",
+				"unitConfirmation": "1",
+				"UnitDateOfRegistration": "2020-08-19 18:27:11"
+			},
+			"8": {
+				"id": "9",
+				"lessonKey": "norolojik_rehabilitasyon",
+				"authorUserId": "1",
+				"unitKey": "norolojik_rehabilitasyon/oneri",
+				"unitTitle": "Öneri",
+				"unitContent": "bos",
+				"unitFileLocation": "bos",
+				"unitConfirmation": "1",
+				"UnitDateOfRegistration": "2020-08-19 18:27:11"
+			},
+			"9": {
+				"id": "10",
+				"lessonKey": "ortez_ve_protez_rehabilitasyonu",
+				"authorUserId": "1",
+				"unitKey": "ortez_ve_protez_rehabilitasyonu/oneri",
+				"unitTitle": "Öneri",
+				"unitContent": "bos",
+				"unitFileLocation": "bos",
+				"unitConfirmation": "1",
+				"UnitDateOfRegistration": "2020-08-19 18:27:11"
+			},
+			"10": {
+				"id": "11",
+				"lessonKey": "tedavi_hareketleri",
+				"authorUserId": "1",
+				"unitKey": "tedavi_hareketleri/oneri",
+				"unitTitle": "Öneri",
+				"unitContent": "bos",
+				"unitFileLocation": "bos",
+				"unitConfirmation": "1",
+				"UnitDateOfRegistration": "2020-08-19 18:27:11"
+			},
+			"11":{
+				"id": "12",
+				"lessonKey": "elektro_terapi_ve_modaliteler",
+				"authorUserId": "1",
+				"unitKey": "elektro_terapi_ve_modaliteler/oneri",
+				"unitTitle": "Öneri",
+				"unitContent": "bos",
+				"unitFileLocation": "bos",
+				"unitConfirmation": "1",
+				"UnitDateOfRegistration": "2020-08-19 18:27:11"
+			},
+			"12":{
+				"id": "13",
+				"lessonKey": "kardiyopulmoner_rehabilitasyonu",
+				"authorUserId": "1",
+				"unitKey": "kardiyopulmoner_rehabilitasyonu/oneri",
+				"unitTitle": "Öneri",
+				"unitContent": "bos",
+				"unitFileLocation": "bos",
+				"unitConfirmation": "1",
+				"UnitDateOfRegistration": "2020-08-19 18:27:11"
+			}
+		},
+		"usersinterim": {},
+		"usersmessage": {},
+		"usersmessagelike": {},
+		"userspasswordchangelistforget": {},
+		"usersunit": {},
+		"usersunitlike": {},
+		"likemessage": {},
+		"likeunit": {},
+		"message": {
+			"0": {
+				"id": "1",
+				"unitId": "1",
+				"userId": "1",
+				"message": "merhaba",
+				"messageId": "0"
+			},
+			"1": {
+				"id": "2",
+				"unitId": "1",
+				"userId": "1",
+				"message": "merhaba",
+				"messageId": "0"
+			},
+			"2": {
+				"id": "3",
+				"unitId": "1",
+				"userId": "1",
+				"message": "merhaba",
+				"messageId": "0"
+			},
+			"3": {
+				"id": "4",
+				"unitId": "1",
+				"userId": "1",
+				"message": "merhaba",
+				"messageId": "0"
+			}
+		},
+		"usersloginblockedlist": {
+			"0": {
+				"userId": "1",
+				"userLoginTry": "0"
+			},
+			"1": {
+				"userId": "2",
+				"userLoginTry": "0"
+			}
+		}
+	}
+	
+	
+}

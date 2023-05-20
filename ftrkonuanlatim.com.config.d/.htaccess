@@ -1,0 +1,5 @@
+deny from all
+ErrorDocument 403 http://localhost:/ftrkonuanlatim
+ErrorDocument 404 http://localhost:/ftrkonuanlatim
+ErrorDocument 405 http://localhost:/ftrkonuanlatim  
+ErrorDocument 500 http://localhost:/ftrkonuanlatim

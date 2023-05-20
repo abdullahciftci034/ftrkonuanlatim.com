@@ -1,0 +1,21 @@
+{
+    "ftrkonuanlatim":{
+        "usersRank":" (description varchar(250) not null,rankValue int(1) not null primary key) CHARACTER SET utf8",
+        "users":" (id int not null AUTO_INCREMENT UNIQUE, userNameVal varchar(30) not null,userName varchar(30) not null UNIQUE,userEmail varchar(30) not null UNIQUE, userRank int(1) not null default 1 ,userDateOfRegistration timestamp DEFAULT current_timestamp(),password varchar (100) not null, userConfirmation boolean not null default false , userActive boolean not null default false, userloginBlocked boolean not null default false , FOREIGN KEY (userRank) REFERENCES usersRank(rankValue),primary key(id,userName,userEmail)) CHARACTER SET utf8",
+        "usersInterim":"(id int not null AUTO_INCREMENT UNIQUE,userId int not null ,userEmail varchar(30) not null UNIQUE,verificationCode int (6) not null, dateOfDeletion TIMESTAMP NOT NULL,foreign key(userId) references users(id) ON DELETE CASCADE) CHARACTER SET utf8 ",
+        "usersPasswordChangeListForget":" (userId int primary key not null,verificationCode int(6) not null,foreign key (userId) references users(id)) CHARACTER SET utf8",
+        "usersLoginBlockedList":" (userId int primary key not null,userLoginTry int(1) not null default 0,foreign key (userId) references users(id) ON DELETE CASCADE) CHARACTER SET utf8",
+        
+        "lesson":"(lessonKey varchar(200) not null UNIQUE primary key, lessonName varchar(250) not null unique ) CHARACTER SET utf8 ",
+        "unit":"(id int primary key not null auto_increment,lessonKey varchar(200) not null,authorUserId int not null ,unitKey varchar(250) not null UNIQUE,unitTitle varchar(250) not null , unitContent text(300000) not null, unitFileLocation varchar(500) not null ,unitConfirmation boolean default false , unitDateOfRegistration timestamp DEFAULT current_timestamp(), foreign key(lessonKey) references lesson(lessonKey) on delete cascade, foreign key(authorUserId) references users(id)) CHARACTER SET utf8 ",
+        "unitTempEdit":"(unitId int not null unique,lessonKey varchar(500), uniunitTitle varchar(500) ,unitContent text(150000) ,foreign key (unitId) references unit(id)) CHARACTER SET utf8",
+        "unitTempSave": "( authorUserId int(11) UNIQUE not null,lessonKey varchar(500) ,unitTitle varchar(500) ,unitContent text(150000) ,FOREIGN KEY (authorUserId) REFERENCES users (id))CHARACTER SET utf8 ",
+        "unitLike":"( unitId int not null primary key,numberOflike int not null default 0, unitLikeArrayList text, FOREIGN KEY (unitId) REFERENCES unit(id))CHARACTER SET utf8 ",
+
+        "message":"(id int not null auto_increment primary key , unitId int not null , userId int not null , message varchar(200) not null , messageId int default 0 ,foreign key(unitId) references unit(id), foreign key(userId) references users(id)) CHARACTER SET utf8 ",
+        "messageLike":" (messageId int not null primary key,numberOflike int not null default 0, messageLikeArrayList text, FOREIGN KEY (messageId) REFERENCES message(id)) CHARACTER SET utf8 ",
+        
+        "usersUnitLike":" (userId int not null primary key,unitLikeArrayList text,FOREIGN KEY (userId) REFERENCES users(id)) CHARACTER SET utf8 ",
+        "usersMessageLike":" (userId int not null primary key,messageLikeArrayList text, FOREIGN KEY (userId) REFERENCES users(id)) CHARACTER SET utf8 "
+    }
+}

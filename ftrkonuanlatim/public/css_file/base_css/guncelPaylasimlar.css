@@ -1,0 +1,9 @@
+div#guncelPaylasim_kutusu{
+   border: 2px solid rgba(60, 60, 60,.1);
+   height: 200px;
+   overflow: hidden;
+   padding: 3px;
+   font-size: 12px;
+   margin-top:10px;
+   font-style: italic;
+}
