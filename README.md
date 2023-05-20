@@ -30,13 +30,13 @@
         <li><a href="https://www.apachefriends.org/tr/index.html">Xampp server</a></li>
         <li><a href="https://www.mysql.com/downloads/">Mysql server</a></li>
         <li><a href="https://httpd.apache.org/download.cgi">Apache server</a></li>
-    </ul>
+    </ul><br/>
     Sirasi ile calistirin:<br>
-    <code>git clone https://github.com/abdullahciftci034/ftrkonuanlatim.com.git</code>
-    <code>apache serverdaki httpd.conf dosyasindan `DocumentRoot` `Directory` konumlari degistirin</code>
-    <code>apache serveri ve mysql calistirin</code>
-    <code>browserdan <a href="http://localhost/start.php">http://localhost/start.php</a> acin</code>
-    <code>browserdan <a href="http://localhost/ftrkonuanlatim">http://localhost/ftrkonuanlatim</a> acin</code>
+    <code>git clone https://github.com/abdullahciftci034/ftrkonuanlatim.com.git</code><br/>
+    <code>apache serverdaki httpd.conf dosyasindan `DocumentRoot` `Directory` konumlari degistirin</code><br/>
+    <code>apache serveri ve mysql calistirin</code><br/>
+    <code>browserdan <a href="http://localhost/start.php">http://localhost/start.php</a> acin</code><br/>
+    <code>browserdan <a href="http://localhost/ftrkonuanlatim">http://localhost/ftrkonuanlatim</a> acin</code><br/>
     Kullanici adi :abdullahciftci034<br/>
     sifre : abdullah_123<br/>
 </div>
