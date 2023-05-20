@@ -30,13 +30,13 @@
         <li><a href="https://www.apachefriends.org/tr/index.html">Xampp server</a></li>
         <li><a href="https://www.mysql.com/downloads/">Mysql server</a></li>
         <li><a href="https://httpd.apache.org/download.cgi">Apache server</a></li>
-    </ul><br/>
+    </ul><br/><br/><br/>
     Sirasi ile calistirin:<br>
-    <code>git clone https://github.com/abdullahciftci034/ftrkonuanlatim.com.git</code><br/>
-    <code>apache serverdaki httpd.conf dosyasindan `DocumentRoot` `Directory` konumlari degistirin</code><br/>
-    <code>apache serveri ve mysql calistirin</code><br/>
-    <code>browserdan <a href="http://localhost/start.php">http://localhost/start.php</a> acin</code><br/>
-    <code>browserdan <a href="http://localhost/ftrkonuanlatim">http://localhost/ftrkonuanlatim</a> acin</code><br/>
+    <code>git clone https://github.com/abdullahciftci034/ftrkonuanlatim.com.git</code><br/><br/>
+    <code>apache serverdaki httpd.conf dosyasindan `DocumentRoot` `Directory` konumlari degistirin</code><br/><br/>
+    <code>apache serveri ve mysql calistirin</code><br/><br/>
+    <code>browserdan <a href="http://localhost/start.php">http://localhost/start.php</a> acin</code><br/><br/>
+    <code>browserdan <a href="http://localhost/ftrkonuanlatim">http://localhost/ftrkonuanlatim</a> acin</code><br/><br/><br/><br/>
     Kullanici adi :abdullahciftci034<br/>
     sifre : abdullah_123<br/>
 </div>
