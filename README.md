@@ -23,18 +23,19 @@
         <li>vb.</li>
     </ul>
     <br/>
-    1. yeni kurulum<br/>
+    <h3>1. Yeni kurulum</h3><br/>
     Gereken programlar:<br/>
     <ul>
         <li><a href="https://www.docker.com/products/docker-desktop/">Docker</a></li>
-    </ul><br/><br/><br/>
+    </ul>
     Sirasi ile calistirin:<br>
-    <code>git clone https://github.com/abdullahciftci034/ftrkonuanlatim.com.git</code><br/><br/>
-    <code>docker-compose build</code><br/><br/>
-    <code>docker-compose up</code><br/><br/>
-    <code><a href="http://localhost/start/1">http://localhost/start/1</a></code> browserda açın<br/><br/>
-    <code><a href="http://localhost">http://localhost</a></code>browserda açın<br/><br/>
+    <code>git clone https://github.com/abdullahciftci034/ftrkonuanlatim.com.git</code>terminalden çalıştırın<br/>
+    <code>docker-compose build</code> terminalden çalıştırın<br/>
+    <code>docker-compose up</code> terminalden çalıştırın<br/>
+    <code><a href="http://localhost/start/1">http://localhost/start/1</a></code> browserda açın<br/>
+    <code><a href="http://localhost">http://localhost</a></code>browserda açın<br/>
     <br/><br/><br/>
+    <br/><br/>
     2. kurulum 
     Gereken programlar:<br/>
     <ul>
@@ -43,13 +44,13 @@
         <li><a href="https://www.apachefriends.org/tr/index.html">Xampp server</a></li>
         <li><a href="https://www.mysql.com/downloads/">Mysql server</a></li>
         <li><a href="https://httpd.apache.org/download.cgi">Apache server</a></li>
-    </ul><br/><br/><br/>
+    </ul>
     Sirasi ile calistirin:<br>
-    <code>git clone https://github.com/abdullahciftci034/ftrkonuanlatim.com.git</code><br/><br/>
-    <code>apache serverdaki httpd.conf dosyasindan `DocumentRoot` `Directory` konumlari degistirin</code><br/><br/>
-    <code>apache serveri ve mysql calistirin</code><br/><br/>
-    <code>browserdan <a href="http://localhost/start.php">http://localhost/start.php</a> acin</code><br/><br/>
-    <code>browserdan <a href="http://localhost/ftrkonuanlatim">http://localhost/ftrkonuanlatim</a> acin</code><br/><br/><br/><br/>
+    <code>git clone https://github.com/abdullahciftci034/ftrkonuanlatim.com.git</code><br/>
+    <code>apache serverdaki httpd.conf dosyasindan `DocumentRoot` `Directory` konumlari degistirin</code><br/>
+    <code>apache serveri ve mysql calistirin</code><br/>
+    <code>browserdan <a href="http://localhost/start.php">http://localhost/start.php</a> acin</code><br/>
+    <code>browserdan <a href="http://localhost/ftrkonuanlatim">http://localhost/ftrkonuanlatim</a> acin</code><br/><br/>
     Kullanici adi :abdullahciftci034<br/>
     sifre : abdullah_123<br/>
 </div>
