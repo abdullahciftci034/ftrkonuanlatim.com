@@ -1,0 +1,34 @@
+version: '3.8'
+services:
+  ftrkonuanlatim:
+    ports:
+      - "80:80"
+    build: './app'
+    volumes:
+      - ./app/apache_config/apache2.conf:/etc/apache2/apache2.conf
+      - ./app/ftrkonuanlatim:/var/www/html/
+      - ./app/ftrkonuanlatim.com.backup.d:/var/www/ftrkonuanlatim.com.backup.d
+      - ./app/ftrkonuanlatim.com.config.d:/var/www/ftrkonuanlatim.com.config.d
+      - ./app/ftrkonuanlatim.com.crone.d:/var/www/ftrkonuanlatim.com.crone.d
+      - ./app/ftrkonuanlatim.com.problems.d:/var/www/ftrkonuanlatim.com.problems.d
+      - ./app/ftrkonuanlatim.com.temp.d:/var/www/ftrkonuanlatim.com.temp.d
+    networks:
+      - my_network
+    depends_on:
+      - ftrkonuanlatim_db
+  ftrkonuanlatim_db: 
+      build: ./mysql_app
+      environment:
+        - MYSQL_ROOT_PASSWORD=abdullah123
+        - MYSQL_DATABASE=ftrkonuanlatim
+        - MYSQL_USER=abdullah
+        - MYSQL_PASSWORD=abdullah123
+      ports:
+        - 3306:3306
+      volumes:
+        - ./mysql_app/data:/var/lib/mysql
+      networks:
+        - my_network
+networks:
+  my_network: 
+    driver: bridge

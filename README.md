@@ -23,6 +23,19 @@
         <li>vb.</li>
     </ul>
     <br/>
+    1. yeni kurulum<br/>
+    Gereken programlar:<br/>
+    <ul>
+        <li><a href="https://www.docker.com/products/docker-desktop/">Docker</a></li>
+    </ul><br/><br/><br/>
+    Sirasi ile calistirin:<br>
+    <code>git clone https://github.com/abdullahciftci034/ftrkonuanlatim.com.git</code><br/><br/>
+    <code>docker-compose build</code><br/><br/>
+    <code>docker-compose up</code><br/><br/>
+    <code><a href="http://localhost/start/1">http://localhost/start/1</a></code> browserda açın<br/><br/>
+    <code><a href="http://localhost">http://localhost</a></code>browserda açın<br/><br/>
+    <br/><br/><br/>
+    2. kurulum 
     Gereken programlar:<br/>
     <ul>
         <li><a href="https://git-scm.com/downloads">Git</a></li>
