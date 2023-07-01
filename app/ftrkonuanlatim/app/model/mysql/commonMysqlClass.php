@@ -1,6 +1,7 @@
 <?php
 class commonMysql{
     public $database;
+    public $connPdo;
     function __construct($mysqlUser){
         require_once APP_FUNCS."config_funcs.php";
         require_once APP_FUNCS."error_funcs.php";   
@@ -18,18 +19,23 @@ class commonMysql{
         if(empty($array->{"dbname"})){
             try{  
                 $this->connPdo=new PDO("mysql:host=".$array->{"host"}.";",$array->{"user"},$array->{"password"});
+                
             }catch(PDOException $e){
                 error_registions("mysql_connect_problems.txt",$e->getMessage());
                 return false;
             }
+            
         }else{
             $this->database= $array->{"dbname"};
-            try{  
+            try{ 
+                 
                 $this->connPdo=new PDO("mysql:host=".$array->{"host"}.";dbname=".$array->{"dbname"}.";",$array->{"user"},$array->{"password"});       
+            
             }catch(PDOException $e){
                 error_registions("mysql_connect_problems.txt",$e->getMessage());
                 return false;
             }
+            
         }
        
     }

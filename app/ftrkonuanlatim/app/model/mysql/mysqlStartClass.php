@@ -6,6 +6,7 @@ class mysqlStart{
         $this->databaseStrutJson=APP_CONFIG."mysql_database_struct.json";
         $this->insertJson=APP_CONFIG."mysql_insert.json";
         $this->databaseObj =new databaseMysql($person,$database);
+       
     }
 
     public function createDB(){

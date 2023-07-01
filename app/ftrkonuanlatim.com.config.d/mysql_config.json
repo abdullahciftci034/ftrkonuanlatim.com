@@ -1,0 +1,13 @@
+{
+    "root":{
+        "host":"ftrkonuanlatim_db",
+        "user":"root",
+        "password":"abdullah123",
+        "dbname":"ftrkonuanlatim"
+    },
+    "root1":{
+        "host":"ftrkonuanlatim_db",
+        "user":"root",
+        "password":"abdullah123"
+    }
+}
