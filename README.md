@@ -36,8 +36,8 @@
     <code>docker-compose up</code> terminalden çalıştırın<br/>
     <code><a href="http://localhost/start/1">http://localhost/start/1</a></code> browserda açın<br/>
     <code><a href="http://localhost">http://localhost</a></code>browserda açın<br/>
-    <br/><br/><br/>
-    <br/><br/>
+    <br/>
+    <br/>
     <h3>2. Eski kurulum</h3> 
     Gereken programlar:
     <ul>
