@@ -1,25 +1,27 @@
 # ftrkonuanlatim.com
 <div>
-    <h3>Merhabalar</h3></br> 
-    Bu projemde ders notlarını paylasacak web sitesi yaptim.</br>
-    Uygulamayi kullanmadigimdan buraya koyuyorum.</br>
-    Maximum verimli.</br>
-    Kullanici adi, eposta, sifre ile kayit olup giris yapabiliyorsunuz.</br> 
-    Yazilari, pdf, word dosyalarini yükleyerek paylaşabiliryorsunuz.</br>
-    Genel olarak yaptıklarım:</br>
+    <h2>Proje Hakkında</h2>
+    <div> 
+        Bu projemde sunumlarınızı, ders notlarınızı ve bilgilerimizi paylabileceğimiz web sitesidir.
+    </div>
+    <h3>İçerik</h3>
+    Maximum verimlidir.<br/>
+    Kullanici adi, eposta, sifre ile kayit olup giris yapabiliyoruz.<br/> 
+    Yazilari, pdf, word dosyalarini yükleyerek paylaşabiliryoruz.<br/>
+    Genel :<br/>
     <ul>
-        <li>Kullanıcı olusturma</li>
+        <li>Kullanıcı oluşturma</li>
         <li>Login olma</li>
-        <li>Metin paylasma</li>
-        <li>Dokuman paylasma</li>
+        <li>Metin paylaşma</li>
+        <li>Dokuman paylaşma</li>
         <li>Paylasimlara yorum yapabilme</li>
-        <li>Admin kullanicisi olup yazilari onaylama, yorumlari silme</li>
-        <li>Passwordlari Encryption  etme</li>
-        <li>Cikan hatalari loglama</li>
+        <li>Admin kullanıcısı olup yazıları onaylama, yorumları silme</li>
+        <li>Passwordlari encryption  etme</li>
+        <li>Oluşan hataları loglama</li>
         <li>Her ay verileri yedekleme</li>
-        <li>URL leri duzeltme</li>
+        <li>URL leri düzeltme</li>
         <li>URl leri otomatik mapsleme (sitemap.xml)</li>
-        <li>Hizli kurulum ile hizlica test edebilme</li>
+        <li>Hizli kurulum ile hızlıca test edebilme</li>
         <li>vb.</li>
     </ul>
     <br/>
@@ -28,7 +30,7 @@
     <ul>
         <li><a href="https://www.docker.com/products/docker-desktop/">Docker</a></li>
     </ul>
-    Sirasi ile calistirin:<br>
+    Sırası ile çalıstırın:<br>
     <code>git clone https://github.com/abdullahciftci034/ftrkonuanlatim.com.git</code>terminalden çalıştırın<br/>
     <code>docker-compose build</code> terminalden çalıştırın<br/>
     <code>docker-compose up</code> terminalden çalıştırın<br/>
@@ -36,8 +38,8 @@
     <code><a href="http://localhost">http://localhost</a></code>browserda açın<br/>
     <br/><br/><br/>
     <br/><br/>
-    2. kurulum 
-    Gereken programlar:<br/>
+    <h3>2. Eski kurulum</h3> 
+    Gereken programlar:
     <ul>
         <li><a href="https://git-scm.com/downloads">Git</a></li>
         <li><a href="https://www.wampserver.com/en/">Wamp Server</a></li>
@@ -51,6 +53,18 @@
     <code>apache serveri ve mysql calistirin</code><br/>
     <code>browserdan <a href="http://localhost/start.php">http://localhost/start.php</a> acin</code><br/>
     <code>browserdan <a href="http://localhost/ftrkonuanlatim">http://localhost/ftrkonuanlatim</a> acin</code><br/><br/>
+    <br/>
+    <h3>Login olmak için</h3>
     Kullanici adi :abdullahciftci034<br/>
     sifre : abdullah_123<br/>
+
+   <br/>
+   <h3>Preview</h3>
+    <img src="image/anasayfa.png">
+    <img src="image/giris.png">
+    <img src="image/kayitolma.png">
+    <img src="image/yaziolusturma.png">
+    <img src="image/yazilariduzenleme.png">
+    <img src="image/yorum_yapma.png">
+    <img src="image/databaseyapisi.png">
 </div>

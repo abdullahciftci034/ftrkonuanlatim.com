@@ -365,3 +365,7 @@ Tarih : 01.07.2023 23:06:03 => SQLSTATE[HY000] [1049] Unknown database 'ftrkonua
 Tarih : 01.07.2023 23:06:03 => SQLSTATE[HY000] [1049] Unknown database 'ftrkonuanlatim'
 Tarih : 01.07.2023 23:06:23 => SQLSTATE[HY000] [1049] Unknown database 'ftrkonuanlatim'
 Tarih : 01.07.2023 23:10:00 => SQLSTATE[HY000] [1049] Unknown database 'ftrkonuanlatim'
+Tarih : 21.08.2023 07:28:49 => SQLSTATE[HY000] [2002] Connection refused
+Tarih : 21.08.2023 07:28:50 => SQLSTATE[HY000] [2002] Connection refused
+Tarih : 21.08.2023 07:28:59 => SQLSTATE[HY000] [2002] Connection refused
+Tarih : 21.08.2023 07:29:06 => SQLSTATE[HY000] [2002] Connection refused
